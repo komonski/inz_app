@@ -1,0 +1,85 @@
+.cd-schedule{
+  .timeline{
+    z-index: 9;
+    position: static !important;
+
+    ul{
+      li{
+        color: #BDBDBD;
+        font-size: 14px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .events{
+    position: absolute !important;
+    top: 0;
+    left: 0;
+
+    ul{
+      .events-group{
+
+        .top-info{
+          color: #BDBDBD;
+          font-size: 14px;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+.single-event{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .hour{
+    font-weight: 700;
+    font-size: 12px;
+    color: #003C82;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .name{
+    font-weight: 700;
+    font-size: 15px;
+    color: #003C82;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .teacher{
+    font-weight: 700;
+    font-size: 15px;
+    color: #757575;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .room{
+    font-weight: 700;
+    font-size: 18px;
+    color: #59C049;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  a{
+    font-size: 16px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 5px;
+
+    .icon-trash{
+      color: #DA3A3A;
+    }
+
+    &:before{
+      display: none;
+    }
+  }
+}

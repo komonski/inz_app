@@ -1,0 +1,33 @@
+.card{
+  background: #FFFFFF;
+  box-shadow: 0 0 5px 0 rgba(0,60,130,0.08);
+  border: none;
+  margin-bottom: 10px;
+
+  &-header{
+    background: none;
+    border-bottom: 2px solid #E7E7E7;
+
+    h5{
+      button{
+        color: #003C82;
+
+        &:focus{
+          text-decoration: none;
+        }
+
+        &:hover{
+          text-decoration: none;
+          color: #003C82;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+
+  &-body{
+    color: #757575;
+    padding: 30px;
+    line-height: 32px;
+  }
+}

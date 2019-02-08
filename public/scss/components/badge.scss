@@ -1,0 +1,130 @@
+.badge{
+  border-radius: 4px;
+  text-transform: uppercase;
+
+  &-primary{
+    background: #003C82;
+    color: #fff;
+  }
+
+  &-secondary{
+    background: #56AEEC;
+    color: #fff;
+  }
+
+  &-dark{
+    background: #3D3D3D;
+    color: #fff;
+  }
+
+  &-grey{
+    background: #BDBDBD;
+    color: #fff;
+  }
+
+  &-success{
+    background: #59C049;
+    color: #fff;
+  }
+
+  &-warning{
+    background: #EDC429;
+    color: #fff;
+  }
+
+  &-danger{
+    background: #DA3A3A;
+    color: #fff;
+  }
+
+
+
+  //light
+
+  &-primary-light{
+    background: #DDE5EE;
+    color: #003C82;
+  }
+
+  &-secondary-light{
+    background: #DFF1FE;
+    color: #56AEEC;
+  }
+
+  &-dark-light{
+    background: #E7E7E7;
+    color: #3D3D3D;
+  }
+
+  &-grey-light{
+    background: #F1F1F1;
+    color: #BDBDBD;
+  }
+
+  &-success-light{
+    background: #D9F8D5;
+    color: #59C049;
+  }
+
+  &-warning-light{
+    background: #FAF2D5;
+    color: #EDC429;
+  }
+
+  &-danger-light{
+    background: #FFE3E3;
+    color: #DA3A3A;
+  }
+
+
+  //outline
+
+  &-primary-outline{
+    border: 2px solid #003C82;
+    border-radius: 4px;
+    background: none;
+    color: #003C82;
+  }
+
+  &-secondary-outline{
+    border: 2px solid #56AEEC;
+    border-radius: 4px;
+    background: none;
+    color: #56AEEC;
+  }
+
+  &-dark-outline{
+    border: 2px solid #3D3D3D;
+    border-radius: 4px;
+    background: none;
+    color: #3D3D3D;
+  }
+
+  &-grey-outline{
+    border: 2px solid #BDBDBD;
+    border-radius: 4px;
+    background: none;
+    color: #BDBDBD;
+  }
+
+  &-success-outline{
+    border: 2px solid #59C049;
+    border-radius: 4px;
+    background: none;
+    color: #59C049;
+  }
+
+  &-warning-outline{
+    border: 2px solid #EDC429;
+    border-radius: 4px;
+    background: none;
+    color: #EDC429;
+  }
+
+  &-danger-outline{
+    border: 2px solid #DA3A3A;
+    border-radius: 4px;
+    background: none;
+    color: #DA3A3A;
+  }
+}

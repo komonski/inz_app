@@ -1,0 +1,36 @@
+.dropdown{
+  .dropdown-toggle{
+    &:after{
+      border-top: .4em solid;
+      border-right: .4em solid transparent;
+      border-bottom: 0;
+      border-left: .4em solid transparent;
+      position: relative;
+      top: 2px;
+    }
+
+    &:focus{
+      outline: none;
+      box-shadow: none !important;
+    }
+  }
+
+  .dropdown-menu{
+    box-shadow: 0 0 5px 0 rgba(0,60,130,0.08);
+    border-radius: 4px;
+    border: none;
+
+    .dropdown-item{
+      color: #757575;
+      padding: 10px 30px;
+
+      &:before{
+        display: none;
+      }
+
+      &:hover{
+        color: #003C82;
+      }
+    }
+  }
+}

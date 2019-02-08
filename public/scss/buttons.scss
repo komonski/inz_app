@@ -1,0 +1,515 @@
+.btn{
+
+  &:focus{
+    box-shadow: none;
+  }
+
+  //Rounded
+  &-rounded{
+    border-radius: 100px !important;
+  }
+
+  // sizes
+  &-xs{
+    padding: 8px 16px;
+    font-size: 11px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+
+    i{
+      font-size: 20px;
+      position: relative;
+      top: 3px;
+      margin-right: 10px;
+    }
+  }
+
+  &-sm{
+    padding: 11px 18px;
+    font-size: 12px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+
+    i{
+      font-size: 14px;
+      position: relative;
+      top: 2px;
+      margin-right: 8px;
+    }
+  }
+
+  &-md{
+    padding: 16px 32px;
+    font-size: 15px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+
+    i{
+      font-size: 14px;
+      position: relative;
+      top: 2px;
+      margin-right: 8px;
+    }
+  }
+
+  &-lg{
+    padding: 20px 40px;
+    font-size: 18px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+
+    i{
+      font-size: 20px;
+      position: relative;
+      top: 3px;
+      margin-right: 10px;
+    }
+  }
+
+
+  // sizes icon
+  &-xs-icon{
+    margin-right: 12px;
+    margin-bottom: 30px;
+    border-radius: 100px !important;
+    height: 28px;
+    width: 28px;
+
+    i{
+      font-size: 12px;
+      position: relative;
+      top: -2px;
+      left: -4px;
+    }
+  }
+
+  &-sm-icon{
+    margin-right: 12px;
+    margin-bottom: 30px;
+    border-radius: 100px !important;
+    height: 40px;
+    width: 40px;
+
+    i{
+      font-size: 16px;
+      position: relative;
+      top: 1px;
+    }
+  }
+
+  &-md-icon{
+    margin-right: 12px;
+    margin-bottom: 30px;
+    border-radius: 100px !important;
+    height: 52px;
+    width: 52px;
+
+    i{
+      font-size: 22px;
+      position: relative;
+      top: 1px;
+    }
+  }
+
+  &-lg-icon{
+    margin-right: 12px;
+    margin-bottom: 30px;
+    border-radius: 100px !important;
+    height: 70px;
+    width: 70px;
+
+    i{
+      font-size: 28px;
+      position: relative;
+      top: 1px;
+    }
+  }
+
+
+  // color
+  &-primary{
+    background-color: #003C82;
+    border-radius: 4px;
+    border: 0;
+    line-height: 20px;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #002D61;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-secondary{
+    background-color: #56AEEC;
+    border-radius: 4px;
+    border: 0;
+    line-height: 20px;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #248CD6;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-dark{
+    background-color: #3D3D3D;
+    border-radius: 4px;
+    border: 0;
+    line-height: 20px;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #282828;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-grey{
+    border-radius: 4px;
+    background: #9F9F9F;
+    color: #FFFFFF;
+    border: 0;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #808080;
+      color: #FFFFFF;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-success{
+    border-radius: 4px;
+    background: #59C049;
+    color: #FFFFFF;
+    border: 0;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #34A522;
+      color: #FFFFFF;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-warning{
+    border-radius: 4px;
+    background: #EDC429;
+    color: #FFFFFF;
+    border: 0;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #D3A907;
+      color: #FFFFFF;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-danger{
+    border-radius: 4px;
+    background: #DA3A3A;
+    color: #FFFFFF;
+    border: 0;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #BF1F1F;
+      color: #FFFFFF;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  //Light
+  &-primary-light{
+    background-color: #DDE5EE;
+    border-radius: 4px;
+    border: 0;
+    line-height: 20px;
+    color: #003C82;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #B8CADE;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-secondary-light{
+    background-color: #DFF1FE;
+    border-radius: 4px;
+    border: 0;
+    line-height: 20px;
+    color: #56AEEC;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #C4E0F5;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-dark-light{
+    background-color: #E7E7E7;
+    border-radius: 4px;
+    border: 0;
+    line-height: 20px;
+    color: #3D3D3D;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #D3D3D3;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-grey-light{
+    background-color: #F1F1F1;
+    border-radius: 4px;
+    border: 0;
+    line-height: 20px;
+    color: #BDBDBD;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #E2E2E2;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-success-light{
+    background-color: #D9F8D5;
+    border-radius: 4px;
+    border: 0;
+    line-height: 20px;
+    color: #59C049;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #BEECB7;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-warning-light{
+    background-color: #FAF2D5;
+    border-radius: 4px;
+    border: 0;
+    line-height: 20px;
+    color: #EDC429;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #F4E8BB;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-danger-light{
+    background-color: #FFE3E3;
+    border-radius: 4px;
+    border: 0;
+    line-height: 20px;
+    color: #DA3A3A;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #F4C4C4;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+
+
+  // outline
+  &-primary-outline{
+    background-color: none;
+    border: 2px solid #003C82;
+    color: #003C82;
+    border-radius: 4px;
+    line-height: 20px;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #003C82;
+      color: #fff;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-secondary-outline{
+    background-color: none;
+    border: 2px solid #56AEEC;
+    color: #56AEEC;
+    border-radius: 4px;
+    line-height: 20px;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #56AEEC;
+      color: #fff;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-dark-outline{
+    background-color: none;
+    border: 2px solid #3D3D3D;
+    color: #3D3D3D;
+    border-radius: 4px;
+    line-height: 20px;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #3D3D3D;
+      color: #fff;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-grey-outline{
+    background-color: none;
+    border: 2px solid #BDBDBD;
+    color: #BDBDBD;
+    border-radius: 4px;
+    line-height: 20px;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #BDBDBD;
+      color: #fff;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-success-outline{
+    background-color: none;
+    border: 2px solid #59C049;
+    color: #59C049;
+    border-radius: 4px;
+    line-height: 20px;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #59C049;
+      color: #fff;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-warning-outline{
+    background-color: none;
+    border: 2px solid #EDC429;
+    color: #EDC429;
+    border-radius: 4px;
+    line-height: 20px;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #EDC429;
+      color: #fff;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  &-danger-outline{
+    background-color: none;
+    border: 2px solid #DA3A3A;
+    color: #DA3A3A;
+    border-radius: 4px;
+    line-height: 20px;
+
+    &:before{
+      display: none;
+    }
+
+    &:hover{
+      background-color: #DA3A3A;
+      color: #fff;
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+}

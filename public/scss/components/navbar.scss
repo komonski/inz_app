@@ -1,0 +1,21 @@
+.navbar{
+  background: #FFFFFF;
+  box-shadow: 0 0 5px 0 rgba(0,60,130,0.08);
+  padding: 15px 30px;
+
+  .navbar-brand{
+    img{
+      height: 48px;
+    }
+  }
+
+  a{
+    &:before{
+      display: none;
+    }
+  }
+}
+
+.bg-light{
+  background: #FFFFFF;
+}

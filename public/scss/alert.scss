@@ -1,0 +1,84 @@
+.alert{
+  margin-bottom: 45px;
+  border: none;
+  padding: 15px 25px;
+
+  i{
+    font-size: 20px;
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+  }
+
+  // Light colors
+  &-primary{
+    background-color: #DDE5EE;
+    color: #003C82;
+  }
+
+  &-secondary{
+    background-color: #DFF1FE;
+    color: #56AEEC;
+  }
+
+  &-dark{
+    background-color: #E7E7E7;
+    color: #3D3D3D;
+  }
+
+  &-grey{
+    background-color: #F1F1F1;
+    color: #BDBDBD;
+  }
+
+  &-warning{
+    background-color: #FAF2D5;
+    color: #EDC429;
+  }
+
+  &-danger{
+    background-color: #FFE3E3;
+    color: #DA3A3A;
+  }
+
+  &-success{
+    background-color: #D9F8D5;
+    color: #59C049;
+  }
+
+  //Color
+  &-primary-color{
+    background-color: #003C82;
+    color: #FFFFFF;
+  }
+
+  &-secondary-color{
+    background-color: #56AEEC;
+    color: #FFFFFF;
+  }
+
+  &-dark-color{
+    background-color: #3D3D3D;
+    color: #FFFFFF;
+  }
+
+  &-grey-color{
+    background-color: #BDBDBD;
+    color: #FFFFFF;
+  }
+
+  &-warning-color{
+    background-color: #EDC429;
+    color: #FFFFFF;
+  }
+
+  &-danger-color{
+    background-color: #DA3A3A;
+    color: #FFFFFF;
+  }
+
+  &-success-color{
+    background-color: #59C049;
+    color: #FFFFFF;
+  }
+}

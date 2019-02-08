@@ -1,0 +1,14 @@
+.component--grid{
+  &--bg{
+    p{
+      background: #FFFFFF;
+      box-shadow: 0 0 5px 0 rgba(0,60,130,0.08);
+      color: #757575;
+      height: 56px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+  }
+}

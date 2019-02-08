@@ -1,0 +1,47 @@
+.component--signin{
+  .flex{
+    align-items: initial;
+  }
+
+  &--left{
+    width: 50%;
+    background: #003C82;
+    box-shadow: 0 0 5px 0 rgba(0,60,130,0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &--right{
+    width: 50%;
+    background: #FFFFFF;
+    padding: 60px;
+
+    > .subtitle {
+      color: #BDBDBD;
+      margin-bottom: 30px;
+    }
+
+    .back{
+      margin-top: 30px;
+    }
+
+    form{
+      .form-group{
+        small{
+          a{
+            color: #BDBDBD;
+
+            &:before{
+              display: none;
+            }
+          }
+        }
+      }
+
+      > button{
+        margin-top: 10px;
+      }
+    }
+  }
+}
